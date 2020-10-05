@@ -82,7 +82,7 @@ def path(state):
             if b not in visited2:
                 fringe2.appendleft(Node(b, v2.get_path_length() + 1))
                 visited2.add(b)
-
+                testing.add(b)
 
 goal = "0ABCDEFGHIJKLMNO"
 size = 4
